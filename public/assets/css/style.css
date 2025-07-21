@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* sidebar */
+
+.sidebar {
+    width: 255px;
+    min-height: 100vh;
+    background-color: #363740;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+  .main-content {
+      margin-left: 255px;
+      background-color: #F7F8FC;
+      min-height: 100vh;
+      padding: 30px;
+  }
+
+  .overview-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: #252733;
+  }
+
+  .sidebar {
+      width: 255px;
+      min-height: 100vh;
+      background-color: #363740;
+      color: #A4A6B3;
+      position: fixed;
+      top: 0;
+      left: 0;
+  }
+
+  .sidebar-title {
+      font-family: 'Mulish', sans-serif;
+      font-weight: 700;
+      font-size: 19px;
+      color: #A4A6B3;
+      opacity: 0.7;
+      margin-top: 5px;
+  }
+
+  .logo-circle {
+      width: 32px;
+      height: 32px;
+      background-color: #3751FF;
+      border-radius: 50%;
+  }
+
+  .logo-letter {
+      color: white;
+      font-weight: bold;
+      background: linear-gradient(143.7deg, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%);
+      -webkit-text-fill-color: transparent;
+      font-size: 18px;
+  }
+
+  .sidebar-item .nav-link {
+      font-family: 'Mulish', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #A4A6B3;
+      padding: 15px 20px;
+  }
+/* icon sidebar after overview */
+  .sidebar-item .nav-link svg{
+    width: 16;
+    height: 10px;
+    top: 2.67px;
+    opacity: 0.4;
+
+    fill: #9FA2B4;
+  }
+
+  .sidebar-item.active {
+      background-color: rgba(159, 162, 180, 0.08);
+      border-left: 3px solid #DDE2FF;
+  }
+
+  
+  .sidebar-item.active .nav-link {
+      color: #DDE2FF;
+  }
+
+  /* icon pie */
+  .sidebar-item.active .nav-link svg{
+
+    /* icon / sidebar / active / 1. overview */
+      width: 16px;
+      height: 16px;
+      left: 32px;
+      top: calc(50% - 16px/2);
+
+      fill: #DDE2FF ;
+  }
+
+  .sidebar-item .nav-link:hover {
+      color: #DDE2FF;
+  }
+
+  .sidebar hr {
+  border: 1px solid #DFE0EB;
+  opacity: 0.06;
+  margin: 24px 0;
+  }
+
+
+  /* TOPBAR_HEADER */
+.topbar {
+position: relative;
+
+height: 80px;
+background-color: #F7F8FC;
+border-bottom: 1px solid #DFE0EB;
+}
+
+.topbar-title {
+font-family: 'Mulish', sans-serif;
+font-weight: 700;
+font-size: 24px;
+color: #252733;
+}
+
+/* .topbar-icon {
+width: 40px;
+height: 40px;
+border: 1.5px solid #C5C7CD;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #C5C7CD;
+font-size: 16px;
+position: relative;
+} */
+
+  .topbar-icon svg{
+    width: 14px;
+    height: 16px;
+    left: 1px;
+    opacity: 1;
+
+    fill: #C5C7CD;
+  }
+
+  .notification-dot {
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    width: 8px;
+    height: 8px;
+    background-color: #3751FF;
+    border: 1.5px solid #F7F8FC;
+    border-radius: 50%;
+  }
+
+  .divider-vertical {
+    width: 1px;
+    height: 32px;
+    background-color: #DFE0EB;
+    margin: 0 10px;
+  }
+
+  .user-name {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #252733;
+    text-align: right;
+  }
+
+  .avatar-circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1.5px solid #DFE0EB;
+  }
+
+  .avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* CARDS */
+
+.card {
+  border-radius: 8px;
+  height: 134px;
+}
+
+  .card-body p {
+    margin-bottom: 0;
+
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 100%;
+    letter-spacing: 0.4px;
+    text-align: center;
+
+  }
+
+  .card-body h2 {
+    margin-top: 10px;
+    letter-spacing: 1px;
+
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+
+  }
+
+
+/* --- Tarjeta principal --- */
+.trend-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+  /* --- Títulos --- */
+  .trend-title {
+      font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 100%;
+    letter-spacing: 0.4px;
+
+    color: #252733;
+  }
+
+    .trend-subtitle {
+      font-family: 'Mulish', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.1px;
+
+
+      color: #9FA2B4;
+    }
+
+    /* --- Leyenda --- */
+    .legend {
+      font-size: 0.875rem;
+    }
+
+    .legend-label{
+      font-family: 'Mulish', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 0.1px;
+
+      color: #9FA2B4;
+    }
+
+    .legend-line {
+      display: inline-block;
+      width: 24px;
+      height: 2px;
+      border-radius: 1px;
+    }
+
+    .today-line {
+      background-color: #3751FF; 
+    }
+
+    .yesterday-line {
+      background-color: #DFE0EB; 
+    }
+
+  /* --- Contenedor del gráfico --- */
+  .graph-container img {
+    width: 90%;
+    object-fit: contain;
+  }
+
+  /* --- Estadísticas (lado derecho) --- */
+  .text-muted {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    
+    color: #9FA2B4 !important;
+  }
+
+  .text-dark {
+    width: 278;
+    height: 30;
+    opacity: 1;
+    left: 32px;
+
+    font-family:'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+    text-align: center;
+
+    color: #252733 !important;
+  }
+
+  .border-start hr {
+  width: 342px;  
+  margin-top: 0; margin-bottom: 1.5rem;
+  border-top: 1px solid #DFE0EB;
+  }
+
+
+
+  /* BOTTOM CARDS */
+.custom-card {
+  height: 336px;
+  border-radius: 8px;
+  border: 1px solid #DFE0EB;
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 100%;
+  letter-spacing: 0.4px;
+
+  color: #252733;
+}
+
+.card-subtitle {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.1px;
+
+  color: #DFE0EB;
+}
+
+.card-link {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: right;
+
+  list-style: none;
+
+  color: #3751FF;
+}
+
+.ticket-item{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+
+  color: #252733;
+}
+
+
+.ticket-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* TASK */
+
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.task-row span{
+  font-family:'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+
+  color: #252733;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #C5C7CD;
+  border-radius: 50%;
+  margin-right: 12px;
+  position: relative;
+}
+
+.completed {
+  background: #3751FF;
+}
+
+.completed .inner-check {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-width: 1.7px;
+
+
+  fill: #FFFFFF;
+}
+
+.plus-icon {
+  width: 24px;
+  height: 24px;
+  background: #F0F1F7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.horizontal-line {
+  width: 10px;
+  height: 2px;
+  background: #9FA2B4;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 10px;
+  background: #9FA2B4;
+  position: absolute;
+}
+
+.badge {
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.badge.urgent {
+  background: #FEC400;
+  color: #fff;
+}
+
+.badge.new {
+  background: #29CC97;
+  color: #fff;
+}
+
+.badge.default {
+  background: #F0F1F7;
+  color: #9FA2B4;
+}
