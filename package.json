@@ -1,0 +1,23 @@
+{
+  "name": "frontend_figma_inm320",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresmoraCO/FRONTEND_figma_INM320.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresmoraCO/FRONTEND_figma_INM320/issues"
+  },
+  "homepage": "https://github.com/AndresmoraCO/FRONTEND_figma_INM320#readme",
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
