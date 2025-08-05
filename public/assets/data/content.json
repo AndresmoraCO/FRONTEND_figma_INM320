@@ -1,60 +1,11 @@
-{
-    "site_name": "Dashboard Kit",
-    "email": "afmora-dussan@myseneca.ca",
-    "phone": "",
-    "main_nav":[
-        {
-            "url": "/",
-            "text": "cellphone",
-            "link_id":"",
-            "link_class":"",
-            "new_tab": true,
-            "sub_nav":[]
-        },
-
-        {
-            "url": "/",
-            "text": "computer",
-            "link_id":"",
-            "link_class":"",
-            "new_tab": false,
-            "sub_nav":[]
-        },
-
-        {
-            "url": "/",
-            "text": "Ideas",
-            "link_id":"",
-            "link_class":"",
-            "new_tab": false,
-            "sub_nav":[]
-        },
-
-        {
-            "url": "/",
-            "text": "Contacts",
-            "link_id":"",
-            "link_class":"",
-            "new_tab": false,
-            "sub_nav":[]
-        },
-
-        {
-            "url": "/",
-            "text": "Agents",
-            "link_id":"",
-            "link_class":"",
-            "new_tab": false,
-            "sub_nav":[]
-        },
-
-        {
-            "url": "/",
-            "text": "Articles",
-            "link_id":"",
-            "link_class":"",
-            "new_tab": false,
-            "sub_nav":[]
-        }
+{"unresolved_tickets": {
+    "title": "Unresolved Tickets",
+    "subtitle": "Group: Support",
+    "items": [
+        { "label": "Waiting on Feature Request", "count": 4238 },
+        { "label": "Awaiting Customer Response", "count": 1005 },
+        { "label": "Awaiting Developer Fix", "count": 914 },
+        { "label": "Pending", "count": 281 }
     ]
+}
 }
