@@ -12,8 +12,9 @@
     "url": "git+https://github.com/AndresmoraCO/FRONTEND_figma_INM320.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Andres Mora",
+  "license": "private",
+  "private": true,
   "bugs": {
     "url": "https://github.com/AndresmoraCO/FRONTEND_figma_INM320/issues"
   },
