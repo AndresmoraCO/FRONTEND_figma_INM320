@@ -1,11 +1,60 @@
-{"unresolved_tickets": {
-    "title": "Unresolved Tickets",
-    "subtitle": "Group: Support",
-    "items": [
-        { "label": "Waiting on Feature Request", "count": 4238 },
-        { "label": "Awaiting Customer Response", "count": 1005 },
-        { "label": "Awaiting Developer Fix", "count": 914 },
-        { "label": "Pending", "count": 281 }
-    ]
-}
+{
+  "site_name": "Dashboard Kit",
+  "email": "afmora-dussan@myseneca.ca",
+  "phone": "",
+
+    "projects": [
+    {
+      "title": "UX Research",
+      "description": "Improve user experience by collecting feedback and insights.",
+      "badge": "Urgent",
+      "status": "In Progress"
+    },
+    {
+      "title": "Landing Page Design",
+      "description": "Redesign the homepage for better conversion rates.",
+      "badge": "New",
+      "status": "Completed"
+    }
+  ],
+
+  "tickets_title": "Unresolved tickets",
+  "tickets_subtitle": "Group: Maintenance",
+  "tickets": [
+    {
+      "label": "Waiting on Feature Request",
+      "count": 11111
+    },
+    {
+      "label": "Awaiting Customer Response",
+      "count": 1234
+    },
+    {
+      "label": "Awaiting Developer Fix",
+      "count": 913454354
+    },
+    {
+      "label": "Pending",
+      "count": 28143
+    }
+  ],
+  "main_nav": [],
+  "tasks_title": "Dutes",
+  "tasks_subtitle": "tomorrow",
+  "tasks": [
+    {
+      "label": "Finish ticket update",
+      "badge": "Urgent"
+    },
+    {
+      "label": "Create new ticket example",
+      "badge": "default",
+      "completed": true
+    },
+    {
+      "label": "Update ticket report",
+      "badge": "New"
+      
+    }
+  ]
 }

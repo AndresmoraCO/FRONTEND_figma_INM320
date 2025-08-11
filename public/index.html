@@ -290,7 +290,8 @@
     </div> <!-- container -->
 
     <!-- new cards -->
-    <div class="row mt-4" id="json-cards-container"></div>
+    <div class="row" id="json-cards-container"></div>
+    
 
     <div class="row mt-4">
       <!-- Unresolved Tickets -->
@@ -298,13 +299,13 @@
         <div class="card custom-card">
           <div class="d-flex justify-content-between align-items-center">
             <div>
-              <h5 class="card-title">Unresolved tickets</h5>
-              <small class="card-subtitle">Group: Support</small>
+              <h5 class="card-title" id="tickets-title">Unresolved tickets</h5>
+              <small class="card-subtitle" id="tickets-subtitle" >Group: Support</small>
             </div>
             <a href="#" class="card-link">View details</a>
           </div>
 
-          <ul class="list-unstyled mt-5">
+          <ul class="list-unstyled mt-5 w-100" id="tickets-list">
             <li class="ticket-item  ">
               <span >Waiting on Feature Request</span>
               <span style="color: #9FA2B4;">4238</span>
@@ -333,53 +334,56 @@
         <div class="card custom-card">
           <div class="d-flex justify-content-between align-items-center">
             <div>
-              <h5 class="card-title">Tasks</h5>
-              <small class="card-subtitle">Today</small>
+              <h5 class="card-title" id="tasks-title">Tasks</h5>
+              <small class="card-subtitle" id="tasks-subtitle">Today</small>
             </div>
             <a href="#" class="card-link">View all</a>
           </div>
 
           <!-- Task: Create new -->
-          <div class="task-row border-bottom mt-4">
-            <div class="d-flex align-items-center">
-              <span class="text-muted" style=" font-size: 14px; letter-spacing: 0.2px;">Create new task</span>
-            </div>
-            <div class="plus-icon">
-              <div class="horizontal-line"></div>
-              <div class="vertical-line"></div>
-            </div>
-          </div>
-
-          <!-- Task 1 -->
-          <div class="task-row border-bottom">
-            <div class="d-flex align-items-center">
-              <div class="checkbox"></div>
-              <span>Finish ticket update</span>
-            </div>
-            <div class="badge urgent">Urgent</div>
-          </div>
-
-          <!-- Task 2 -->
-          <div class="task-row border-bottom">
-            <div class="d-flex align-items-center">
-              <div class="checkbox"></div>
-              <span>Create new ticket example</span>
-            </div>
-            <div class="badge new">New</div>
-          </div>
-
-          <!-- Task 3 -->
-          <div class="task-row">
-            <div class="d-flex align-items-center">
-              <div class="checkbox completed">
-                <svg class="inner-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                  <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
-                </svg>
+           <div id="tasks-list">
+              <div class="task-row border-bottom mt-4">
+                <div class="d-flex align-items-center">
+                  <span class="text-muted" style=" font-size: 14px; letter-spacing: 0.2px;">Create new task</span>
+                </div>
+                <div class="plus-icon">
+                  <div class="horizontal-line"></div>
+                  <div class="vertical-line"></div>
+                </div>
               </div>
-              <span>Update ticket report</span>
-            </div>
-            <div class="badge default">Default</div>
-          </div>
+
+              <!-- Task 1 -->
+              <div class="task-row border-bottom">
+                <div class="d-flex align-items-center">
+                  <div class="checkbox"></div>
+                  <span>Finish ticket update</span>
+                </div>
+                <div class="badge urgent">Urgent</div>
+              </div>
+
+              <!-- Task 2 -->
+              <div class="task-row border-bottom">
+                <div class="d-flex align-items-center">
+                  <div class="checkbox"></div>
+                  <span>Create new ticket example</span>
+                </div>
+                <div class="badge new">New</div>
+              </div>
+
+              <!-- Task 3 -->
+              <div class="task-row">
+                <div class="d-flex align-items-center">
+                  <div class="checkbox completed">
+                    <svg class="inner-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                    </svg>
+                  </div>
+                  <span>Update ticket report</span>
+                </div>
+                <div class="badge default">Default</div>
+              </div>
+
+             </div> 
         </div>
       </div>
     </div>

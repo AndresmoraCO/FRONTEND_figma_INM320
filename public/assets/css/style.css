@@ -386,7 +386,7 @@ position: relative;
 
 .ticket-item {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
 /* TASK */
